@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Temperature Converter</h1>
+
+    <div id="content">
+        <div id="boxCel">
+            <div class="bullet"></div>
+            <input type="number" value=0 id="celcius" onChange="celFunction()">
+            <p>CELCIUS</p>
+        </div>
+        <div id="boxFah">
+            <div class="bullet"></div>
+            <input type="number" value=0 id="fahrenheit" onChange="fahFunction()">
+            <p>FAHRENHEIT</p>
+        </div>
+        <div id="boxRea">
+            <div class="bullet"></div>
+            <input type="number" value=0 id="reamur" onChange="reaFunction()">
+            <p>REAMUR</p>
+        </div>
+        <div id="boxKel">
+            <div class="bullet"></div>
+            <input type="number" value=0 id="kelvin" onChange="kelFunction()">
+            <p>KELVIN</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

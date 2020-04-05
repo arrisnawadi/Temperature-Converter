@@ -1,0 +1,78 @@
+body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #384B60;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #BEDAFA;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#boxCel,
+#boxFah,
+#boxRea,
+#boxKel {
+    width: 250px;
+    flex: column;
+    margin: 0 15px 15px 15px;
+}
+
+#celcius,
+#fahrenheit,
+#reamur,
+#kelvin {
+    border-style: none;
+    border-bottom: 2px solid #BEFADA;
+    width: 100%;
+    font-size: 66px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #BEDAFA;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+p {
+    text-align: center;
+    font-size: 28px;
+    color: #BEDAFA;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#boxCel .bullet,
+#boxFah .bullet,
+#boxRea .bullet,
+#boxKel .bullet {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #BEDAFA;
+    display: block;
+    float: right;
+}
